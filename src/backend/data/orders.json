@@ -1,0 +1,39 @@
+[
+  {
+    "id": "001",
+    "customer": "Stadtwerke München",
+    "product": "Ökostrom Gewerbe L",
+    "volume_kwh": 500000,
+    "status": "in_verhandlung",
+    "created_at": "2025-02-01",
+    "updated_at": "2025-02-10",
+    "history": [
+      { "status": "offen", "timestamp": "2025-02-01T09:00:00" },
+      { "status": "in_verhandlung", "timestamp": "2025-02-10T14:30:00" }
+    ]
+  },
+  {
+    "id": "002",
+    "customer": "Bosch GmbH",
+    "product": "Industriestrom Flex",
+    "volume_kwh": 1200000,
+    "status": "offen",
+    "created_at": "2025-02-05",
+    "updated_at": "2025-02-05",
+    "history": [{ "status": "offen", "timestamp": "2025-02-05T11:00:00" }]
+  },
+  {
+    "id": "003",
+    "customer": "Lidl Logistik AG",
+    "product": "Ökostrom Gewerbe XL",
+    "volume_kwh": 2000000,
+    "status": "abgeschlossen",
+    "created_at": "2025-01-15",
+    "updated_at": "2025-02-08",
+    "history": [
+      { "status": "offen", "timestamp": "2025-01-15T08:00:00" },
+      { "status": "in_verhandlung", "timestamp": "2025-01-22T10:00:00" },
+      { "status": "abgeschlossen", "timestamp": "2025-02-08T16:00:00" }
+    ]
+  }
+]

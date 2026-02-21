@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energy Order Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>⚡ Energy Order Tracker</h1>
+      <p>B2B Auftragsübersicht – getenergy Demo</p>
+    </header>
+
+    <main>
+      <section id="filters">
+        <button class="filter-btn active" data-status="all">Alle</button>
+        <button class="filter-btn" data-status="offen">Offen</button>
+        <button class="filter-btn" data-status="in_verhandlung">
+          In Verhandlung
+        </button>
+        <button class="filter-btn" data-status="abgeschlossen">
+          Abgeschlossen
+        </button>
+        <button class="filter-btn" data-status="verloren">Verloren</button>
+      </section>
+
+      <section id="order-list"></section>
+
+      <section id="new-order">
+        <h2>Neuen Auftrag anlegen</h2>
+        <form id="order-form">
+          <input
+            type="text"
+            id="customer"
+            placeholder="Kundenname *"
+            required
+          />
+          <input type="text" id="product" placeholder="Produkt *" required />
+          <input
+            type="number"
+            id="volume"
+            placeholder="Volumen (kWh) *"
+            required
+          />
+          <button type="submit">Auftrag anlegen</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -37,3 +37,7 @@ Leichtgewichtiges Dashboard für B2B-Energieaufträge mit:
 
 🚧 In Entwicklung – Portfolio-Projekt zur Demonstration von PO-Methodik
 und technischem Verständnis im Energiesektor.
+
+## Preview
+
+![Energy Order Tracker](docs/screenshot.png)
