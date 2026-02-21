@@ -41,3 +41,7 @@ und technischem Verständnis im Energiesektor.
 ## Preview
 
 ![Energy Order Tracker](docs/screenshot.png)
+
+## Sprint Board
+
+![Sprint Board](docs/board-screenshot.png)
